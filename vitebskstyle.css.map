@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,0BAAe;AACvB,IAAI;AAAC;;gBAEW;EAChB;;0BAEwB;;AAExB,QAAQ;EACN,KAAK,EAAE,IAAI;;AAGb,OAAO;EACH,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,QAAQ;EAChB,IAAI,EAAE,eAAe;EACrB,KAAK,EAAE,OAAO;;AAMlB,EAAE;EACF,UAAU,EAAC,MAAM",
+"sources": ["vitebskstyle.scss"],
+"names": [],
+"file": "vitebskstyle.css"
+}
