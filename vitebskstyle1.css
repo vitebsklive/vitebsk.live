@@ -6604,8 +6604,9 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 /*# sourceMappingURL=bootstrap.css.map */
 body {
-  margin-top: 0px;
-  margin: 0 auto;
+     /*
+margin-top:0px;
+margin:0 auto;*/
   /*background-image:url(fon.webp);
   background-repeat:no-repeat;
   background-size: 100%;*/ }
