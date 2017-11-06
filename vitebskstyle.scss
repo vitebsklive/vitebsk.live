@@ -27,3 +27,16 @@ text-align:center;
 background-color: #e7e7e7;
 border-radius: 1%;
 }
+
+button {outline: none;}
+.text {
+  display: block;
+  width: auto;
+  height: 100px;
+  /*border: 1px solid black;
+  padding: 5px;
+  margin-top: 5px;*/
+  outline: none;
+  overflow: hidden;
+}
+.text:focus, button:focus ~ .text {height: auto;}
