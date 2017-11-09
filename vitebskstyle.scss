@@ -28,15 +28,19 @@ background-color: #e7e7e7;
 border-radius: 1%;
 }
 
-button {outline: none;}
+
+
 .text {
-  display: block;
-  width: auto;
+transition-duration: 1s;
   height: 100px;
-  /*border: 1px solid black;
-  padding: 5px;
-  margin-top: 5px;*/
+  overflow: hidden;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.text:hover {
+  height: auto;
+transition-duration: 1s;/*
+  cursor: pointer;
   outline: none;
   overflow: hidden;
-}
-.text:focus, button:focus ~ .text {height: auto;}
+*/}
