@@ -2,7 +2,7 @@
 <html>
 <head>
     <META http-equiv="Content-Type"content="text/html; charset=utf-8"></META>
-  
+  <script src='http://code.jquery.com/jquery-latest.js'></script>
     <LINK href="vitebskstyle.css" rel="stylesheet"type="text/css"></LINK>
 <title>Сalorie Calculator</title>
     <link rel="shortcut icon" href="icon.png" type="image/png">  
@@ -56,10 +56,10 @@
 	<div class="col-lg-3"></div>
         <div id="middle" class="col-lg-7">
 	<div class="center">
-	   <img class="col-lg-5 col-sm-7" src="img.jpg">
+	   <img id="img" class="col-lg-5 col-sm-7" src="img.jpg">
        
             
-  <div class="text">
+  <div id="text">
    «Нарушение подачи электроэнергии, вероятно, затронет 4,1 млн наших клиентов, это около 9 млн человек», — заявил он, подчеркнув, что такой сценарий событий «станет беспрецедентным» испытанием для компании, входящей в пятерку ведущих операторов энергораспределительной сети Флориды. «Мы готовимся к худшему. При такой скорости ветра речь уже не идет о восстановлении линий электропередач. В некоторых районах их придется прокладывать заново», — пояснил глава FPL.
 По словам Силоджи, в качестве меры предосторожности компания «остановит реакторы двух АЭС за 24 часа до удара» «Ирмы». Станция Turkey Point в Хомстеде 25 лет назад выдержала «лобовой натиск» урагана «Эндрю», продолжала функционировать, хотя и понесла ущерб на миллионы долларов. Второй объект расположен в округе Сент-Луси.
 «Эти предприятия являются одними из самых прочных и надежно спроектированных в мире. Однако мы не собираемся рисковать», — добавил глава FPL.
@@ -75,6 +75,15 @@
   <div class="calculator">
      
     </div>
-  
+  <script type="text/javascript">
+    $('#text').click(function() {
+    var reducedHeight = $(this).height();
+    $(this).css('height', 'auto');
+    var fullHeight = $(this).height();
+    $(this).height(reducedHeight);
+
+    $(this).animate({height: fullHeight}, 500);
+});
+    </script>
 </body>
 </html>
